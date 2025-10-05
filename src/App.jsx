@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Header from "./header";
 import Login from "./login";
-import Dashboard from "./Dashboard";
+import Dashboard from "./dashboard";
 import Portfolio from "./Portfolio";
 
 /**
