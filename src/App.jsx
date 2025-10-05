@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import Header from "./header";
 import Login from "./login";
 import Dashboard from "./dashboard";
-import Portfolio from "./Portfolio";
+import Portfolio from "./portfolio";
 
 /**
  * Simple route guard. If not logged in -> alert & redirect to /login.
