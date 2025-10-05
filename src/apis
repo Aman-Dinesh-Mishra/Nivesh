@@ -1,0 +1,6 @@
+export async function fetchPortfolio(userId) {
+  // Example API call
+  const response = await fetch(`/api/users/${userId}/portfolio`);
+  if (!response.ok) throw new Error('Failed to fetch portfolio');
+  return await response.json();
+}
